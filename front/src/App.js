@@ -67,7 +67,7 @@ function App() {
           <Login />
         </Route>
 
-        <Redirect to="/login" />
+        <Redirect to="/" />
       </Switch>
     );
   }

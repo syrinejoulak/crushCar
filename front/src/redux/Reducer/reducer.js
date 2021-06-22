@@ -41,9 +41,9 @@ const reducer = (state = initialState, { type, payload }) => {
     case LOGOUT:
       return {
         ...state,
-        isLoading: false,
+        isLoggedIn: false,
         token: null,
-        user: null,
+        userId: null,
         isAuth: null,
       };
 
